@@ -49,6 +49,7 @@ class TitleViewSet(viewsets.ModelViewSet):
             queryset = queryset.filter(genre__slug=filter_field.get('genre'))
         elif filter_field.get('name'):
             queryset = queryset.filter(name__contains=filter_field.get('name'))
+
         return queryset
 
     def get_serializer_class(self):
