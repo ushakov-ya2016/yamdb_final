@@ -1,5 +1,4 @@
 from rest_framework import serializers
-
 from reviews.models import Category, Comments, Genre, Review, Title
 
 
