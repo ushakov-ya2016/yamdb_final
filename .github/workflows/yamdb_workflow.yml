@@ -43,10 +43,9 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
+          dockerfile: api_yamdb/Dockerfile
           push: true
           tags: sanekaekb/yamdb_final:latest
-          script: |
-            cd api_yamdb
 
   deploy:
     name: Deploy to yandex.cloud
