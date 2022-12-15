@@ -7,6 +7,7 @@
 **Workflow status badge:**
 ----------
 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 !(https://github.com/ushakov-ya2016/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
