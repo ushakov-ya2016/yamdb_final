@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: sanekaekb/api_yamdb_docker:latest
+    image: sanekaekb/api_yamdb_docker:v1
     restart: always
     volumes:
       - static_value:/app/static/
