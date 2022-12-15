@@ -24,6 +24,7 @@ jobs:
       run: |
         python -m flake8
         pytest
+        cd ..
 
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
@@ -44,6 +45,8 @@ jobs:
         with:
           push: true
           tags: sanekaekb/yamdb_final:latest
+          script: |
+            cd api_yamdb
 
   deploy:
     name: Deploy to yandex.cloud
