@@ -4,6 +4,16 @@
 Проект YaMDb собирает отзывы пользователей на различные произведения (фильмы, книги и т.п.).
 
 
+**Cсылки к проекту**
+----------
+
+Адрес проекта: http://51.250.18.156
+
+Документация по API: http://51.250.18.156/redoc/
+
+Вход в панель администрирования: http://51.250.18.156/admin/
+
+
 **Workflow status badge:**
 ----------
 
@@ -54,13 +64,6 @@ docker-compose exec web python manage.py createsuperuser
 ```
 docker-compose exec web python manage.py collectstatic --no-input
 ```
-
-**Полезные ссылки**
-----------
-
-Документация по API: http://127.0.0.1/redoc/
-
-Вход в панель администрирование: http://127.0.0.1/admin/
 
 **Шаблон наполнения env-файла**
 
